@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.example.flex</groupId>
+    <artifactId>getting-started-java</artifactId>
+    <version>1.0.0</version>
+  </parent>
+  <groupId>com.mnds.bwagner</groupId>
+  <artifactId>eve-servlets</artifactId>
+  <version>1.0.0</version>
+  <packaging>war</packaging>
+  <name>eve-servlets Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-webmvc</artifactId>
+    <version>4.3.5.RELEASE</version>
+</dependency>
+    
+  </dependencies>
+  <build>
+    <finalName>eve-servlets</finalName>
+  </build>
+</project>
